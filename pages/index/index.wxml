@@ -1,0 +1,4 @@
+<!--index.wxml-->
+<view>Hello {{name}} !</view>
+<button bindtap="changeName">戳一下</button>
+<view bindtap="linkAbout">点我跳转到about页面<view>

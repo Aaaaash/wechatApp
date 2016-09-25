@@ -1,0 +1,31 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/about/about"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "微信小程序",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+      "color":"#000000",
+      "selectedColor":"#ff004f",
+      "backgroundColor":"#ffffff",
+      "list":[
+        {
+          "pageBtn":"pages/index/index",
+          "text":"index",
+          "iconPath":"images/index1.png",
+          "selectedIconPath":"images/index2.png"
+        },
+        {
+          "pageBtn":"pages/about/about",
+          "text":"about",
+          "iconPath":"images/about1.png",
+          "selectedIconPath":"images/about2.png"
+        }
+      ]
+  }
+}

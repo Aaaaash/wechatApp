@@ -1,0 +1,2 @@
+<wx-view>这里是about页面<wx-view>
+<button bindtap="getout">点我滚回index页面</button>
